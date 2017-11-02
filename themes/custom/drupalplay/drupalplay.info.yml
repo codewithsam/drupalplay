@@ -1,0 +1,15 @@
+name: DrupalPlay
+description: Drupal 8 theme for axelerant
+type: theme
+base theme: classy
+core: 8.x
+libraries:
+  - drupalplay/global-css
+  - drupalplay/global-js
+  - drupalplay/global-fonts
+regions:
+  content: Main Content
+  header: Header
+  footer: Footer
+  rightbar: Right Sidebar
+  leftbar: Left Sidebar
