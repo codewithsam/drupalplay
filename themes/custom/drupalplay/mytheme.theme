@@ -1,0 +1,4 @@
+function mytheme_preprocess_node(array &$variables) {
+  $node = $variables['node'];
+  $variables['content_type'] = node_type_load($node->bundle())->label();
+}
